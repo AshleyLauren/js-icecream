@@ -1,0 +1,57 @@
+.container {
+    overflow: hidden;
+}
+
+.filterDiv {
+    float: left;
+    background-color: #452e51; /* Plum */
+    color: #ffffff;
+    width: 100px;
+    line-height: 100px;
+    text-align: center;
+    margin: 2px;
+    display: none; /* Hidden by default */
+}
+
+/* The "show" class is added to the filtered elements */
+.show {
+    display: block;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Rubrik', sans-serif;
+}
+
+p, .filterDiv, #list {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.icecream {
+    width: 1200px;
+}
+
+#logo {
+    padding-top: 50px;
+    padding-left: 80px;
+}
+
+#header {
+    height: 500px;
+    background-image: url("../images/Ice-Cream-Bar-1.jpg");
+    width: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+#dailyflavors {
+
+    padding-top: 80px;
+    margin-bottom: 100px;
+    height: 400px;
+}
+
+#list {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}

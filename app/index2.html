@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>JavaScript Ice Cream Menu</title>
+    <script   src="http://code.jquery.com/jquery-3.2.1.min.js"   integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="   crossorigin="anonymous"></script>
+      <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+      <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="style2.css">
+    <link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  </head>
+  <body>
+  
+      <div class="row" id="header">
+      <img src="../images/logos/crank-boom-sml.jpg" alt="logo" class="img-responsive left-block" id="logo"> 
+      </div>
+
+  <div class="icecream container-fluid">
+
+<h2>Ice Cream Menu</h2>
+<div id="list">
+<button class="btn-default" onclick="filterSelection('all')" name="category" checked> Show All </button>
+<button class="btn-default" onclick="filterSelection('dailyflavors')" name="category"> Daily Flavors</button> 
+<button class="btn-default" onclick="filterSelection('seasonalflavors')" name="category"> Seasonal Flavors</button>
+<button class="btn-default" onclick="filterSelection('toppings')" name="category"> Toppings</button>
+<button class="btn-default"onclick="filterSelection('serveoptions')" name="category"> Cone</button>
+</div>
+
+<!-- The filterable elements. Note that some have multiple class names (this can be used if they belong to multiple categories) -->
+<div class="container">
+  <div class="filterDiv dailyflavors">Chocolate</div>
+  <div class="filterDiv dailyflavors">Strawberry</div>
+  <div class="filterDiv dailyflavors">Vanilla</div>
+  <div class="filterDiv seasonalflavors">Big Blue Swirl</div>
+  <div class="filterDiv seasonalflavors">Mint Oreo</div>
+  <div class="filterDiv seasonalflavors">Salted Caramel</div>
+  <div class="filterDiv toppings">Sprinkles</div>
+  <div class="filterDiv toppings">Nuts</div>
+  <div class="filterDiv toppings">Gummy Worms</div>
+  <div class="filterDiv serveoptions">Bowl</div>
+  <div class="filterDiv serveoptions">Waffle Cone</div>
+</div>
+
+
+<div class="row">
+      <div class="footer"></div>
+      </div>
+
+      
+  </div>
+    <script src="main2.js"></script>
+  </body>
+</html>
