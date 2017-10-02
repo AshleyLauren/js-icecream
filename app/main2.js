@@ -1,3 +1,5 @@
+console.log(products);
+
 filterSelection("all")
 function filterSelection(c) {
   var x, i;
